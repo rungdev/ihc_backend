@@ -1,0 +1,42 @@
+.box-catagory{
+    height: 300px;
+    overflow-y: scroll;
+}
+/* width */
+.box-catagory::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+.box-catagory::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #c7c7c7; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.box-catagory::-webkit-scrollbar-thumb {
+    background: rgb(124, 124, 124); 
+    border-radius: 5px;
+}
+
+    /* Handle on hover */
+.box-catagory::-webkit-scrollbar-thumb:hover {
+    background: rgb(124, 124, 124);  
+}
+
+.txt-desc{
+    font-size: 12px;
+}
+.table_product td{
+    font-size: 12px;
+}
+ul { 
+    list-style: none;
+}
+.simple-tree-table-icon {
+    
+    background-color: #4b38b3 !important;
+    margin-right: 10px !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+}

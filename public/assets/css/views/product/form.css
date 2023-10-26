@@ -1,0 +1,200 @@
+.dropzone{
+    text-align: center;
+    min-height: unset;
+}
+.profile-pic {
+    width: 200px;
+    max-height: 200px;
+    display: inline-block;
+}
+
+.file-upload {
+    display: none;
+}
+.circle {
+    border: dashed 2px #c7c7c7;
+    border-radius: 5px;
+    width: 135px;
+    height: 135px;
+    margin: auto;
+    padding: 3px;
+}
+.circle img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.upload-button {
+  font-size: 1.2em;
+}
+
+.upload-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
+.btn-remove-image{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 50%;
+    background: #ffe1d8 !important;
+    margin: auto;
+    margin-top: 5px;
+}
+.dropzone .dz-preview .dz-remove:hover{
+    text-decoration: none !important;
+}
+
+.dropzone {
+    border: 2px dashed #e9ebec !important;
+}
+
+.dz-max-files-reached {
+    pointer-events: none;
+    cursor: default;
+}
+.dz-image img{
+    width: 100%;
+}
+.las{
+    font-size: 20px;
+    vertical-align: bottom;
+}
+.option-tags{
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    display: inline-block;
+    padding-right: 10px;
+}
+.option-tags img{
+    width: 50px;
+    border-radius: 5px 0px 0px 5px;
+    height: 37.5px;
+    object-fit: cover;
+    object-position: center;
+}
+.option-tags i{
+    font-size: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.option-tags i:hover{
+    color: darkorange;
+}
+.modal_option img{
+    width: 100%;
+}
+.modal_option .change{
+    color: lightskyblue;
+    cursor: pointer;
+}
+.modal_option .remove{
+    color: #c7c7c7;
+    cursor: pointer;
+}
+.table-option .inp-data{
+    padding: 5px;
+}
+.table-option td{
+    vertical-align: middle;
+}
+.table-option {
+    width: max-content;
+    min-width: 100%;
+}
+.scrollme{
+    overflow-x: scroll;
+}
+.scrollme::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scrollme::-webkit-scrollbar
+{
+	background-color: #F5F5F5;
+    height: 5px;
+}
+
+.scrollme::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+	background-color: #555;
+    
+}
+.filter-option{
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.filter-option.active{
+    color: #4b38b3;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.bootstrap-select.w-auto{
+    width: auto !important;
+    border-radius: 3px 0 0 3px;
+    min-width: 300px;
+    
+}
+.bootstrap-select.w-auto button{
+    border-radius: 3px 0 0 3px;
+    height: 39.5px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background: #4b38b3;
+    border-color: #4b38b3;
+    font-size: 14px;
+    padding: 3px 6px 2px 25px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    color: #fff;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover, .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:focus{
+    background: #fff;
+    color: #4b38b3;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+    color: #fff;
+}
+.btn-remove-filter{
+    font-size: 16px;
+    color: #ff5234;
+    cursor: pointer;
+}
+.select2-selection__choice__remove{
+    height: 100%;
+}
+.select2-container--default .select2-selection--multiple{
+    min-height: 40px;
+}
+.bootstrap-tagsinput{
+    width: 100%;
+    min-height: 85px;
+}
+.bootstrap-tagsinput .tag{
+    background: #4b38b3;
+    border-color: #4b38b3;
+    font-size: 14px;
+    padding: 3px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+.inp-data:read-only {
+    background-color: rgb(231 231 231 / 70%) !important;
+}
