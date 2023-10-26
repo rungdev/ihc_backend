@@ -26,9 +26,10 @@ use App\Http\Controllers\user\User;
 
 Route::get('/signin', [Signin::class, 'signin'])->name('signin');
 Route::post('/checkSignin', [Signin::class, 'checkSignin']);
+Route::get('/', [Dashboard::class, 'dashboard']);
 
 Route::middleware(['chksignin'])->group(function () {
-    Route::get('/', [Dashboard::class, 'dashboard']);
+    
     Route::get('/dashboard', [Dashboard::class, 'dashboard']);
     Route::get('/orderlist', [Orderlist::class, 'orderlist']);
     Route::get('/orderview/{id}', [Orderlist::class, 'orderview']);
